@@ -1,0 +1,44 @@
+*{margin: 0px;}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#bigBox{
+    width: 450px;
+    height: 450px;
+    background-color: rgb(255, 255, 143);
+}
+
+.smallBox{
+    width: 450px;
+    height: 150px;
+    display: flex;
+}
+.mainBox{
+    width: 149px;
+    height: 149px;
+    background-color: white;
+    border: solid 1px black ;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.macho{
+    display: none;
+    filter: grayscale(0%);
+    transition-duration: 0.2s;
+}
+.macho:hover{
+    width: 140px;
+    height: 140px;
+}
+#startBox{
+    width: 450px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
